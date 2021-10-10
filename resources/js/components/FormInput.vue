@@ -17,32 +17,13 @@
             outlined
           ></v-text-field>
 
-<div v-if="this.isSales == 1">
-              <v-text-field
-            label="Qty."
-            value=""
-            placeholder="Quantity"
-            v-model="products.stocks"
-            outlined
-          ></v-text-field>
 
-            <v-text-field
-            label="Price"
-            value=""
-            placeholder="Quantity"
-            v-model="products.price"
-            outlined
-            readonly
-          ></v-text-field>
-
-</div>
-
-<div v-else>
             <v-text-field
             label="Stock"
             value=""
             placeholder="Stocks"
             v-model="products.stocks"
+                        type="number"
             outlined
           ></v-text-field>
 
@@ -51,10 +32,9 @@
             value=""
             placeholder="Price"
             v-model="products.price"
+                        type="number"
             outlined
           ></v-text-field>
-</div>
-
 
 
         </v-card-text>
@@ -107,48 +87,55 @@ import { mapState } from 'vuex';
   }),
 
    computed:{
-    ...mapState(['ProductsInfos'])
+    ...mapState(['ProductList'])
   },
 
   async mounted(){
     this.products = {}
 
+
     bus.$on('UpdateTitle', (data) =>{
       this.DialogTitle = data.title
       this.DialogButton = data.button
-      this.isSales  = data.isSales     
+
     })
 
-    bus.$on('editItems', (data) => {
-      this.DialogTitle = 'Update Item'
-       this.ProductsInfos.forEach(item => {
-          if(item.id == data){
 
 
 
 
-            this.products.isSales = this.isSales
-            this.products.currentStock = item.stocks
-            this.products.currentPrice = item.price
-            this.products.id = item.id
-            this.products.products = item.products
-            this.products.stocks = item.stocks
-            this.products.price = item.price
+
+    // bus.$on('editItems', (data) => {
+    //   this.DialogTitle = 'Update Item'
+    //    this.ProductsInfos.forEach(item => {
+    //       if(item.id == data){
+
+
+
+    //         this.products.currentStock = item.stocks
+    //         this.products.currentPrice = item.price
+    //         this.products.id = item.id
+    //         this.products.products = item.products
+    //         this.products.stocks = item.stocks
+    //         this.products.price = item.price
 
 
 
 
-          }
-        })
-    })
+    //       }
+    //     })
+    // })
 
   },
   methods: {
     addItem () {
-      this.$CrudFunc.createData( this.products );
-      //this.products = {}
-
+      if(this.products.products && this.products.stocks && this.products.price){
+        this.$CrudFunc.AddProduct( this.products );
+        this.products = {}
+      }else{
+        alert('All Items Required')
+      }
     }
   }
-  }
+}
 </script>

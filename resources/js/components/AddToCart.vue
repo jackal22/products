@@ -59,7 +59,7 @@
 import { bus } from '../app.js';
 import { mapState } from 'vuex';
   export default {
-    name: 'DialogInfo',
+    name: 'FormInput',
     props:{
       isshownaddtocart : Boolean,
       itemID : String,

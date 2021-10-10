@@ -7,37 +7,42 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   plugins: [
     createPersistedState({
-      key: 'ProductsInfos',
+      key: 'ProductList',
         storage: localStorage       
     })
   ],
 
   state: {
-    ProductsInfos: []
+    ProductList: []
   },
 
   mutations: {
-    AddItems(state, payload){
-      state.ProductsInfos.push(payload)
+    AddProduct(state, payload){
+      state.ProductList.push(payload)
     },
-    RemoveItems(state, payload){
-      state.ProductsInfos.splice(payload, 1)
+    RemoveProduct(state, payload){
+      state.ProductList.splice(payload, 1)
     },
-    PushFromDB(state, payload){
-      state.ProductsInfos = []
-      state.ProductsInfos = payload
+
+
+
+
+
+    SetProductList(state, payload){
+      state.ProductList = []
+      state.ProductList = payload
     }
   },
 
   actions: {
-    AddItems(context, payload){
-      context.commit('AddItems', payload)
+    AddProduct(context, payload){
+      context.commit('AddProduct', payload)
     },
-    RemoveItems(context, payload){
-      context.commit('RemoveItems', payload)
+    RemoveProduct(context, payload){
+      context.commit('RemoveProduct', payload)
     },
-    PushFromDB(context, payload){
-      context.commit('PushFromDB', payload)
+    SetProductList(context, payload){
+      context.commit('SetProductList', payload)
 
     }
 

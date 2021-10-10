@@ -6,14 +6,13 @@
       </div>
       <v-spacer></v-spacer>
       <v-toolbar-items >
-
-        <v-btn text @click="addItems()">
+      <v-btn text @click="addItems()">
           <span class="mr-2">Add</span>
         </v-btn>
 
         <v-divider></v-divider>
 
-        <v-btn text @click="editItems()">
+        <v-btn :disabled="disableButton" text @click="editItems()">
           <span class="mr-2">Edit</span>
         </v-btn>
 
@@ -32,7 +31,9 @@
 
 
     <table-component class="pt-12" />
-     <dialog-info :isshown="showInfoDialog" :itemID="itemID" />
+     <form-input :isshown="showInfoDialog" :itemID="itemID" />
+     <loading-dialog :isshown="showLoading" />
+
    
 
     <v-main>
@@ -42,41 +43,46 @@
 </template>
 <script>
 import TableComponent from '../components/Table.vue';
-import DialogInfo from '../components/DialogInfo.vue';
+import FormInput from '../components/FormInput.vue';
+import LoadingDialog from '../components/FormInput.vue';
 
 import { bus } from '../app.js';
   export default {
     components:{
     TableComponent,
-    DialogInfo,
+    FormInput,
+    LoadingDialog,
     },
 
     data: () => ({
-    showInfoDialog: false,
-    itemsToDelete: [],
-    itemID: '',
+      productList: [],
+
+      showInfoDialog: false,
+      showLoading: false,
+      itemsToDelete: [],
+      itemID: '',
+      disableButton: true
     }),
 
-    mounted(){
-    
 
+    async mounted(){
+ 
     bus.$on( 'hideDialogs', (data) =>{
       this.showInfoDialog = data
     })
 
-
-    bus.$on( 'hideAddToCart', (data) =>{
-      this.showAddToCart = data
+    bus.$on( 'allowEdit', (data) =>{
+      this.disableButton = data
     })
 
 
+   
 
     bus.$on( 'itemsToDelete', (data) => {
       this.itemsToDelete = data
     })
 
-     this.$CrudFunc.readData();
-    
+     
 
 
 
@@ -84,26 +90,21 @@ import { bus } from '../app.js';
     },
 
     methods: {
-      editItems(){
-      bus.$emit('UpdateTitle', {title: 'Update Item', button: 'Update', isSales: 0} )
-      this.$CrudFunc.editData(this.itemsToDelete); 
-      this.itemID = this.itemsToDelete[0] + '' 
-    },
+    //   editItems(){
+    //   bus.$emit('UpdateTitle', {title: 'Update Item', button: 'Update'} )
+    //   this.$CrudFunc.editData(this.itemsToDelete); 
+    //   this.itemID = this.itemsToDelete[0] + '' 
+    // },
 
-    addToCart(){
-      bus.$emit('UpdateTitle', {title: 'Add To Sales', button: 'Add Sales', isSales: 1} )
-      this.$CrudFunc.editData(this.itemsToDelete); 
-      this.itemID = this.itemsToDelete[0] + '' 
 
-    },
 
 
 
     addItems(){
-      bus.$emit('UpdateTitle', {title: 'Add Item', button: 'Add Product', isSales: 0} )
+      bus.$emit('UpdateTitle', {title: 'Add Item', button: 'Add Product'} )
       this.showInfoDialog = true
     }
-    }
+  }
 
   }
 </script>

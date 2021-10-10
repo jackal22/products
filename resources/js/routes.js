@@ -5,11 +5,14 @@ Vue.use(VueRouter)
 
 const routes = [
 
-  {
-    path: '/sales',
-    name: 'Home',
-    component: () => import(/* webpackChunkName: "about" */ './components/Home.vue')
-  },
+  // {
+  //   path: '/sales',
+  //   name: 'Home',
+  //   component: () => import(/* webpackChunkName: "about" */ './components/Home.vue')
+  // },
+
+
+  
 ]
 
 const router = new VueRouter({
