@@ -6,7 +6,7 @@
     >
       <v-card>
         <v-card-title class="text-h5 grey lighten-2">
-          {{ DialogTitle }}
+          {{ dialogType.title }}
         </v-card-title>
         <br>
         <v-card-text>
@@ -43,8 +43,8 @@
 
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn color="success" text @click="addItem()">
-            {{ DialogButton }}
+          <v-btn color="success" text @click="addOrUpdateItem()">
+            {{ dialogType.button }}
           </v-btn>
           <v-btn
             color="error"
@@ -81,8 +81,8 @@ import { mapState } from 'vuex';
       price: '',
     },
     productsInfo: [],
-    DialogTitle: 'Add Item',
-    DialogButton: 'Add',
+    dialogType: {},
+
     isSales: 0,
   }),
 
@@ -91,13 +91,26 @@ import { mapState } from 'vuex';
   },
 
   async mounted(){
-    this.products = {}
-
-
     bus.$on('UpdateTitle', (data) =>{
-      this.DialogTitle = data.title
-      this.DialogButton = data.button
+      this.dialogType = data
+    })
 
+    bus.$on('editItems', (data) => {
+
+      const selectedProduct = this.ProductList.filter( item => { return item.id == data })
+
+      this.products.id       = selectedProduct[0].id
+      this.products.products = selectedProduct[0].products
+      this.products.stocks   = selectedProduct[0].stocks
+      this.products.price    = selectedProduct[0].price 
+    })
+
+
+
+
+
+    bus.$on('resetTextField', () => {
+      this.products = {}
     })
 
 
@@ -105,33 +118,21 @@ import { mapState } from 'vuex';
 
 
 
-    // bus.$on('editItems', (data) => {
-    //   this.DialogTitle = 'Update Item'
-    //    this.ProductsInfos.forEach(item => {
-    //       if(item.id == data){
 
-
-
-    //         this.products.currentStock = item.stocks
-    //         this.products.currentPrice = item.price
-    //         this.products.id = item.id
-    //         this.products.products = item.products
-    //         this.products.stocks = item.stocks
-    //         this.products.price = item.price
-
-
-
-
-    //       }
-    //     })
-    // })
 
   },
   methods: {
-    addItem () {
+    addOrUpdateItem () {
+      console.log(this.dialogType.kind)
       if(this.products.products && this.products.stocks && this.products.price){
-        this.$CrudFunc.AddProduct( this.products );
-        this.products = {}
+        switch(this.dialogType.kind){
+          case 0: 
+            this.$CrudFunc.UpdateProduct( this.products );
+            break;
+          case 1:
+            this.$CrudFunc.AddProduct( this.products );
+            break;
+        }
       }else{
         alert('All Items Required')
       }

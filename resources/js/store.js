@@ -13,7 +13,8 @@ export default new Vuex.Store({
   ],
 
   state: {
-    ProductList: []
+    ProductList: [],
+    SalesList: [],
   },
 
   mutations: {
@@ -23,15 +24,18 @@ export default new Vuex.Store({
     RemoveProduct(state, payload){
       state.ProductList.splice(payload, 1)
     },
-
-
-
-
-
     SetProductList(state, payload){
       state.ProductList = []
       state.ProductList = payload
-    }
+    },
+    AddSales(state, payload){
+      state.SalesList.push(payload)
+    },
+    SetSalesList(state, payload){
+      state.SalesList = []
+      state.SalesList = payload
+    },
+
   },
 
   actions: {
@@ -43,8 +47,13 @@ export default new Vuex.Store({
     },
     SetProductList(context, payload){
       context.commit('SetProductList', payload)
-
-    }
+    },
+    AddSales(context, payload){
+      context.commit('AddSales', payload)
+    },
+    SetSalesList(context, payload){
+      context.commit('SetSalesList', payload)
+    },
 
   },
 })

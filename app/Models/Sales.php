@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Sales extends Model {
 	use HasFactory;
-	protected $fillable = ['quantity', 'totalsales'];
+	protected $fillable = ['id', 'products', 'quantity', 'totalsales'];
 }

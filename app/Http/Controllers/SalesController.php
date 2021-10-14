@@ -11,6 +11,8 @@ class SalesController extends Controller {
 
 	public function store(Request $request) {
 		$product = new Sales([
+			'id' => $request->input('id'),
+			'products' => $request->input('products'),
 			'quantity' => $request->input('quantity'),
 			'totalsales' => $request->input('totalsales'),
 		]);

@@ -1,5 +1,7 @@
 <template>
   <v-card>
+    <br>
+     <v-btn class="pl-3 btn btn-primary" title="click to view sales" @click="showSales()"><strong>Total Sales: {{ $CrudFunc.GetTotalSales() }}</strong></v-btn>
     <v-card-title>
       <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details />
     </v-card-title>
@@ -13,6 +15,7 @@
       </template>
     </v-data-table>
   </v-card>
+
 </template>
 <script>
 import { bus } from '../app.js'
@@ -33,17 +36,28 @@ export default{
   },
   
   computed:{
-    ...mapState(['ProductList']),
+    ...mapState(['ProductList', 'SalesList']),
   },
 
   methods:{
     rowClicked(row) {
       this.toggleSelection(row.id);
-      bus.$emit('itemsToDelete', this.selectedRows)
-      
-      bus.$emit('allowEdit', false)
+      bus.$emit('selectedItems', this.selectedRows)
+
+      if(this.selectedRows.length == 1){
+        bus.$emit('disableEdit', false)
+        bus.$emit('disableDelete', false)
+      }else if(this.selectedRows.length > 1){
+        bus.$emit('disableEdit', true)
+      }else if(this.selectedRows.length == 0){
+        bus.$emit('disableEdit', true)
+        bus.$emit('disableDelete', true)
+      }
+
+
     },
-    
+
+
     toggleSelection(keyID) {
       if (this.selectedRows.includes(keyID)) {
         this.selectedRows = this.selectedRows.filter(
@@ -52,23 +66,14 @@ export default{
       }else {
         this.selectedRows.push(keyID);
       }
-    }
+    },
+      showSales(){
+    bus.$emit('showSalesDialog', true)
+  }
   },
 
 
   mounted(){
-
-
-
-      bus.$on( 'itemsToDelete', (data) => {
-        this.itemsToDelete = data
-      })
-
-      
-
-
-
-
       bus.$on( 'resetSelection', () => {
         this.selectedRows = []
       })

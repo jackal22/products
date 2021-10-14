@@ -5,6 +5,13 @@ import router from './routes.js'
 import store from './store'
 import Vuetify from 'vuetify';
 
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import '@mdi/font/css/materialdesignicons.css'
+
+import 'vuetify/dist/vuetify.css'
+
+
+
 import * as CrudFunc from './class/crudfunctions.class';
 
 Vue.config.productionTip = false
