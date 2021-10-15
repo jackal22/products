@@ -1,3 +1,12 @@
+To Run:
+1. Rename the .env.sample to .env
+2. Create Database named products
+3. run composer install and npm install to install dependencies. 
+4. run php artisan migrate
+5. run php artisan serve  or php artisan serve --host=0.0.0.0 --port=8000
+-- use PHP 7.4 using xampp and MySql latest version
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
