@@ -3,7 +3,8 @@ To Run:
 2. Create Database named products
 3. run composer install and npm install to install dependencies. 
 4. run php artisan migrate
-5. run php artisan serve  or php artisan serve --host=0.0.0.0 --port=8000
+5. run php artisan key:generate
+6. run php artisan serve  or php artisan serve --host=0.0.0.0 --port=8000
 -- use PHP 7.4 using xampp and MySql latest version
 
 
