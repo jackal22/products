@@ -6,8 +6,6 @@ export class crudfunctions{
   constructor(){
     this.BaseUrl = `${window.location.origin}/api/products`;
     this.SalesUrl = `${window.location.origin}/api/sales`; 
-    store.state.ProductList = []
-    store.state.SalesList = []
     this.#GetProducts();
     this.#GetSales();
   }
@@ -40,17 +38,16 @@ export class crudfunctions{
   }
 
   AddSales = async (obj) => {
-    this.hideDialogs()
-    console.log(obj)
-    await axios.post(this.SalesUrl, obj)
+    // this.hideDialogs()
+    bus.$emit('showLoading', true)
     store.dispatch('AddSales', obj)
+    await axios.post(this.SalesUrl, obj)
   }
-
-
 
   AddProduct = async ( obj ) => {
     try{ 
       this.hideDialogs()
+      bus.$emit('showLoading', true)
       store.dispatch('AddProduct', obj)
       await axios.post(this.BaseUrl, obj)
       this.#GetProducts();
@@ -62,11 +59,11 @@ export class crudfunctions{
 
   UpdateProduct = async ( obj ) => {
     try{
-      this.hideDialogs()     
+      this.hideDialogs()   
+      bus.$emit('showLoading', true)
       await axios.put(`${this.BaseUrl}/${obj.id}`, obj)
       this.#GetProducts();
       bus.$emit('resetSelection')
-
     }catch(e){
       console.log(e)
     }
@@ -76,13 +73,11 @@ export class crudfunctions{
     try{
       this.hideDialogs()
 
-      let i = 0;
-      
       itemKey.forEach(key => {
         store.state.ProductList.forEach(item =>{
           if(item.id == key){
             axios.delete(`${this.BaseUrl}/${item.id}`)
-            store.dispatch('RemoveProduct', i)
+            store.dispatch('RemoveProduct', item.id)
           }
         })
       })
@@ -93,16 +88,22 @@ export class crudfunctions{
     }
   }
 
+  // DeleteSales = ( itemid ) => {
+  //   try{
+  //     store.dispatch('RemoveSale', itemid)
 
+  //     store.state.SalesList.forEach(item =>{
+  //       if(item.id = itemid ){
+  //         axios.delete(`${this.SalesUrl}/${item.itemid}`)  
+  //       }
+  //     })  
 
-
-
-
-
-
-
-
-
+  //     alert('successfully deleted');
+  //     bus.$emit('resetSelection')
+  //   }catch(e){
+  //     console.log(':', );
+  //   }
+  // }
 
   hideDialogs = () => {
     bus.$emit('disableEdit', true)

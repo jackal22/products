@@ -21,8 +21,10 @@ export default new Vuex.Store({
     AddProduct(state, payload){
       state.ProductList.push(payload)
     },
+
     RemoveProduct(state, payload){
-      state.ProductList.splice(payload, 1)
+      let tmpIndex = state.ProductList.findIndex(function (item) { return item.id == payload  })
+      state.ProductList.splice(tmpIndex, 1)
     },
     SetProductList(state, payload){
       state.ProductList = []
@@ -36,6 +38,10 @@ export default new Vuex.Store({
       state.SalesList = payload
     },
 
+    RemoveSale(state, payload){
+      let tmpIndex = state.SalesList.findIndex(function (item) { return item.id == payload  })
+      state.SalesList.splice(tmpIndex, 1)
+    },
   },
 
   actions: {
@@ -44,6 +50,9 @@ export default new Vuex.Store({
     },
     RemoveProduct(context, payload){
       context.commit('RemoveProduct', payload)
+    },
+    RemoveSale(context, payload){
+      context.commit('RemoveSale', payload)
     },
     SetProductList(context, payload){
       context.commit('SetProductList', payload)

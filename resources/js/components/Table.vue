@@ -39,6 +39,12 @@ export default{
     ...mapState(['ProductList', 'SalesList']),
   },
 
+  watch:{
+    ProductList: function (){
+      bus.$emit('showLoading', false)
+    }
+  },
+
   methods:{
     rowClicked(row) {
       this.toggleSelection(row.id);
@@ -53,10 +59,7 @@ export default{
         bus.$emit('disableEdit', true)
         bus.$emit('disableDelete', true)
       }
-
-
     },
-
 
     toggleSelection(keyID) {
       if (this.selectedRows.includes(keyID)) {

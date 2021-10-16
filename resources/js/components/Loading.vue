@@ -1,8 +1,8 @@
 <template>
 
     <v-dialog
-      v-model="isShown"
-      hide-overlay
+      v-model="isshown"
+
       persistent
       width="300"
     >
@@ -11,7 +11,7 @@
         dark
       >
         <v-card-text>
-          Please stand by
+          Loading...
           <v-progress-linear
             indeterminate
             color="white"
@@ -27,7 +27,7 @@ import { bus } from '../app.js';
   export default{
     name: 'LoadingDialog',
     props: {
-      isShown: Boolean,
+      isshown: Boolean,
     },
     data: () => ({
 
@@ -36,9 +36,6 @@ import { bus } from '../app.js';
 
     }),
     mounted(){
-      bus.$on('showLoading', (data) => {
-        this.isShown = data
-      })
 
 
 
@@ -46,7 +43,5 @@ import { bus } from '../app.js';
     }
 
   }  
-
-
 
 </script>
