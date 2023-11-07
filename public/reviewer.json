@@ -1,0 +1,1340 @@
+[{
+  "_id": {
+    "$oid": "6287263e5cb595bd58f29f55"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<h1> defines the less important heading.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628726f65cb595bd58f29f56"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<!DOCTYPE html> defines that this document is an HTML4 document.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628727135cb595bd58f29f57"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<a href=”https://google.com”>Google</a> “Google” part is called “attribute” of the <a>(anchor) tag.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628727455cb595bd58f29f58"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "“class” is NOT one of core attributes of HTML.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628727675cb595bd58f29f59"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "HTML describes the structure of Web Page.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628727805cb595bd58f29f5a"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<i> tag will make the text italic.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "6287279e5cb595bd58f29f5b"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<li> defines unordered list.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628728215cb595bd58f29f5c"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<h6> defines the most important heading.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628728575cb595bd58f29f5d"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "All of the HTML tags will have both opening and closing tags.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628728745cb595bd58f29f5e"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "The letter “p” of <p> tag stands for “paragraph”.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628728885cb595bd58f29f5f"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "For each HTML tag you can add attribute(s).",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628728a35cb595bd58f29f60"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<html> tag should always have “lang” attribute and the value should be “ja”. <html lang=”ja”>",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628728c15cb595bd58f29f61"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<meta> tag(s) should be nested inside <body> tag.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628728e15cb595bd58f29f62"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "Character encoding should be defined always as shown below; <meta charset=”shift_jis”>",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628728fa5cb595bd58f29f63"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "To create an HTML form all of the <input> elements should not always be nested inside <form> tag.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628729225cb595bd58f29f64"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "To create a select box you just only have to use <select> tag.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "6287295b5cb595bd58f29f65"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "You need to add closing tag for <input> element(s).",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628729795cb595bd58f29f66"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "“br” of <br> tag stands for “break”(line break).",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628729905cb595bd58f29f67"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "To make an HTML form work properly you need to include necessary attributes in <form> tag.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628729af5cb595bd58f29f68"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "To create an HTML table with border you do not need to give any attribute to <table> tag.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628729d95cb595bd58f29f69"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "“tr” of <tr> tag stands for “table record”.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628729ee5cb595bd58f29f6a"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "“th” of <th> tag stands for “table heading”.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "62872a055cb595bd58f29f6b"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "“td” of <td> tag stands for “table definition”.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "62872a225cb595bd58f29f6c"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "<table> tag and the descendant tag elements(<thead>, <tbody>, <tr>, <th>, <td>) can be used as a kind of grid system to arrange / allocate various HTML elements.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "62872a445cb595bd58f29f6d"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "There’s no comment tag in HTML.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "62872a625cb595bd58f29f6e"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "Internal CSS is the only one option to apply styles to an HTML.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "62872a7c5cb595bd58f29f6f"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "To download a source code from Git remote repository which is like GitLab you can use the following command; git copy http://[remote_repository_url]/[author_name]/[project_name].git",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "62872a995cb595bd58f29f70"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "Using Git with SSH you need to be careful of company proxy / firewall settings(SSH port: 22 can not be used for some security reasons).",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "62872ab75cb595bd58f29f71"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "Git application was created by the author of Linux in 2005.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "62872b185cb595bd58f29f72"
+  },
+  "kind": "FrontEnd Level 1 Y/N",
+  "question": "HTML stands for Hypertext Mark Language",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628730905cb595bd58f29f73"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "HTML tag to create hyperlink",
+  "answer1": "<li>",
+  "answer2": "<p>",
+  "answer3": "<a>",
+  "answer4": "<b>",
+  "correctanswer": "<a>"
+},{
+  "_id": {
+    "$oid": "628730ec5cb595bd58f29f74"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "HTML tag to show an image on a web page",
+  "answer1": "<image>",
+  "answer2": "<picture>",
+  "answer3": "<img>",
+  "answer4": "<figure>",
+  "correctanswer": "<img>"
+},{
+  "_id": {
+    "$oid": "6287311c5cb595bd58f29f75"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "HTML tag to show horizontal rule",
+  "answer1": "<br>",
+  "answer2": "<line>",
+  "answer3": "<rule>",
+  "answer4": "<hr>",
+  "correctanswer": "<hr>"
+},{
+  "_id": {
+    "$oid": "6287314c5cb595bd58f29f76"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "An attribute name to specify an URL in a hyperlink tag",
+  "answer1": "src",
+  "answer2": "link",
+  "answer3": "href",
+  "answer4": "rel",
+  "correctanswer": "href"
+},{
+  "_id": {
+    "$oid": "6287340d5cb595bd58f29f77"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "How to comment out HTML;",
+  "answer1": "none",
+  "answer2": "// Hello world.",
+  "answer3": "/* Hello world. */",
+  "answer4": "<!-- Hello world. -->",
+  "correctanswer": "<!-- Hello world. -->"
+},{
+  "_id": {
+    "$oid": "628734c35cb595bd58f29f78"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "How to link style.css script with an html;",
+  "answer1": "<style rel=”stylesheet” type=”text/css” href=”style.css”>",
+  "answer2": "<link rel=”stylesheet” type=”text/css” href=”style.css”>",
+  "answer3": "<a rel=”stylesheet” type=”text/css” href=”style.css”>",
+  "answer4": "null",
+  "correctanswer": "<link rel=”stylesheet” type=”text/css” href=”style.css”>"
+},{
+  "_id": {
+    "$oid": "6287351f5cb595bd58f29f79"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is correct as a JavaScript variable name?;",
+  "answer1": "20users",
+  "answer2": "users",
+  "answer3": "user-name",
+  "answer4": "~user",
+  "correctanswer": "users"
+},{
+  "_id": {
+    "$oid": "628735595cb595bd58f29f7a"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is a camel case string?;",
+  "answer1": "constructionCode",
+  "answer2": "ConstructionCode",
+  "answer3": "construction_code",
+  "answer4": "construction-code",
+  "correctanswer": "constructionCode"
+},{
+  "_id": {
+    "$oid": "628735945cb595bd58f29f7b"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT a JavaScript data type?",
+  "answer1": "Null",
+  "answer2": "Boolean",
+  "answer3": "String",
+  "answer4": "Dictionary",
+  "correctanswer": "Dictionary"
+},{
+  "_id": {
+    "$oid": "628735c95cb595bd58f29f7c"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT a method to add new element to the array?\nconst fruits = [“Apple”, “Banana”];",
+  "answer1": "fruits.unshift(“Orange”)",
+  "answer2": "fruits.push(“Orange”)",
+  "answer3": "fruits.Add(“Orange”)",
+  "answer4": "null",
+  "correctanswer": "fruits.Add(“Orange”)"
+},{
+  "_id": {
+    "$oid": "62873e3c5cb595bd58f29f7d"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is a correct JSON(JavaScript Object Notation) format?;",
+  "answer1": "{category: “設備”, item1: “システムキッチン”, item2: “システムキッチン扉”, item3: “i-クオリティ・シリーズ:ピアノ鏡面塗装タイプ”, color: “ﾋﾟｱﾉ･ﾌﾞﾗｳﾝ(PBW)”}",
+  "answer2": "{“category: 設備”, “item1: システムキッチン”, “item2: システムキッチン扉”, “item3: i-クオリティ・シリーズ:ピアノ鏡面塗装タイプ”, “color:ﾋﾟｱﾉ･ﾌﾞﾗｳﾝ(PBW)”}",
+  "answer3": "{category: 設備, item1: システムキッチン, item2: システムキッチン扉,item3: i-クオリティ・シリーズ:ピアノ鏡面塗装タイプ, color: ﾋﾟｱﾉ･ﾌﾞﾗｳﾝ(PBW)}",
+  "answer4": "null",
+  "correctanswer": "{category: “設備”, item1: “システムキッチン”, item2: “システムキッチン扉”, item3: “i-クオリティ・シリーズ:ピアノ鏡面塗装タイプ”, color: “ﾋﾟｱﾉ･ﾌﾞﾗｳﾝ(PBW)”}"
+},{
+  "_id": {
+    "$oid": "62873eeb5cb595bd58f29f7e"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is a correct UDF; User Defined Function of JavaScript?",
+  "answer1": "62873eeb5cb595bd58f29f7e-A.png",
+  "answer2": "62873eeb5cb595bd58f29f7e-B.png",
+  "answer3": "62873eeb5cb595bd58f29f7e-C.png",
+  "answer4": "null",
+  "correctanswer": "62873eeb5cb595bd58f29f7e-C.png"
+},{
+  "_id": {
+    "$oid": "628740555cb595bd58f29f7f"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Select a correct answer;\n      const myArray = [1, 3, 5, 7];\n      console.log(myArray.map(x => x * 2))",
+  "answer1": "{‘1’: 2, ‘3’: 6, ‘5’: 10, ‘7’: 14}",
+  "answer2": "[2,6,10,14]",
+  "answer3": "array( ‘1’ => 2, ‘3’ => 6, ‘5’ => 10, ‘7’ => 14)",
+  "answer4": "null",
+  "correctanswer": "[2,6,10,14]"
+},{
+  "_id": {
+    "$oid": "628740f25cb595bd58f29f80"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Select a correct answer;\nconst words = [‘spray’, ‘limit’, ‘elite’, ‘exuberant’, ‘destruction’,‘present’];\nconsole.log(words.filter(word => word.length > 6);",
+  "answer1": "[‘exuberant’, ‘destruction’, ‘present’]",
+  "answer2": "[‘spray’, ‘limit’, ‘elite’, ‘destruction’, ‘present’]",
+  "answer3": "[‘exuberant’, ‘destruction’]",
+  "answer4": "null",
+  "correctanswer": "[‘exuberant’, ‘destruction’, ‘present’]"
+},{
+  "_id": {
+    "$oid": "628741375cb595bd58f29f81"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is correct?;",
+  "answer1": "70.6",
+  "answer2": "70",
+  "answer3": "70.60000000000001",
+  "answer4": "null",
+  "correctanswer": "70.60000000000001",
+  "questionpic": "628741375cb595bd58f29f81.png"
+},{
+  "_id": {
+    "$oid": "628742165cb595bd58f29f82"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is correct?;\n[Problem]\nRelated to #15 sometimes JavaScript will generate the kind of error. To avoid the case we should use the following computation;",
+  "answer1": "const result = Math.floor(value1 – value2);",
+  "answer2": "const result = Math.ceil(value1 – value2);",
+  "answer3": "const result = (value1 * 10 – value2 * 10) / 10;",
+  "answer4": "null",
+  "correctanswer": "const result = (value1 * 10 – value2 * 10) / 10;"
+},{
+  "_id": {
+    "$oid": "628742885cb595bd58f29f83"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is correct?;\nHow to go to upper directory in CLI; Command Line Interface(CommandPromptWindow / Bash);",
+  "answer1": "cd .",
+  "answer2": "cd ..",
+  "answer3": "cp ..",
+  "answer4": "null",
+  "correctanswer": "cd .."
+},{
+  "_id": {
+    "$oid": "628743075cb595bd58f29f84"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?;\nhttps://gcportal.hrd-s.com/tsutatsu",
+  "answer1": "The segment of “https” is called “protocol”.",
+  "answer2": "The segment of “gcportal” is called “subdomain”.",
+  "answer3": "The segment of “com” is called “second-level domain”.",
+  "answer4": "The segment of “tsutatsu” is called “sub directory”.",
+  "correctanswer": "The segment of “com” is called “second-level domain”."
+},{
+  "_id": {
+    "$oid": "6287434e5cb595bd58f29f85"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?;",
+  "answer1": "Port number: 80 is one of well-known ports.",
+  "answer2": "Port number:80 will be used for HTTPS protocol",
+  "answer3": "Port number:80 can be omit in the URL(no need to indicate like localhost:80).",
+  "answer4": "127.0.0.1 is same meaning with localhost.",
+  "correctanswer": "Port number:80 will be used for HTTPS protocol"
+},{
+  "_id": {
+    "$oid": "628743a85cb595bd58f29f86"
+  },
+  "kind": "FrontEnd Level 1 Multiple Choice",
+  "question": "Which of the following options is correct?\nProper HTML code to set character encoding for multi-byte language is;",
+  "answer1": "<meta charset=”sjis”>",
+  "answer2": "<meta charset=”euc-jp”>",
+  "answer3": "<meta charset=”utf-8”>",
+  "answer4": "null",
+  "correctanswer": "<meta charset=”utf-8”>"
+},{
+  "_id": {
+    "$oid": "6287446b5cb595bd58f29f87"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": " Which among the following is a PHP single-line comment?",
+  "answer1": "// comment",
+  "answer2": "-- comment",
+  "answer3": "<!-- comment -->",
+  "answer4": "$ comment",
+  "correctanswer": "// comment"
+},{
+  "_id": {
+    "$oid": "628744aa5cb595bd58f29f88"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "Which among the following statements about the PHP variable is correct?",
+  "answer1": "A variable can only store numbers",
+  "answer2": "A variable name can contain space",
+  "answer3": "Variable names are not case-sensitive",
+  "answer4": " A variable starts with the $ sign",
+  "correctanswer": " A variable starts with the $ sign"
+},{
+  "_id": {
+    "$oid": "6287452f5cb595bd58f29f89"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "What is this variable?",
+  "answer1": "Global variable",
+  "answer2": "Universal variable",
+  "answer3": "Local variable",
+  "answer4": "World variable",
+  "correctanswer": "Local variable",
+  "questionpic": "6287452f5cb595bd58f29f89.png"
+},{
+  "_id": {
+    "$oid": "628745c45cb595bd58f29f8a"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "What should be written in a missing part to complete the conditional statement?",
+  "answer1": "otherwise",
+  "answer2": "else",
+  "answer3": "then",
+  "answer4": "or",
+  "correctanswer": "else",
+  "questionpic": "628745c45cb595bd58f29f8a.png"
+},{
+  "_id": {
+    "$oid": "6287461d5cb595bd58f29f8b"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "What should be written in a missing part of the code to output \"Hello World\"?",
+  "answer1": "$num1 > $num2",
+  "answer2": "$num1 >= $num2",
+  "answer3": "$num1 == $num2",
+  "answer4": "$num1 != $num2",
+  "correctanswer": "$num1 != $num2",
+  "questionpic": "6287461d5cb595bd58f29f8b.png"
+},{
+  "_id": {
+    "$oid": "6287471d5cb595bd58f29f8c"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "What should be written in a missing part of the code to output \"Hello Universe\"?",
+  "answer1": "$num1 / (3 + 2)",
+  "answer2": "$num1 / (3 * 2) ",
+  "answer3": "$num1 / (3 ** 2)",
+  "answer4": "$num1 / (3 % 2)",
+  "correctanswer": "$num1 / (3 % 2)",
+  "questionpic": "6287471d5cb595bd58f29f8c.png"
+},{
+  "_id": {
+    "$oid": "628747695cb595bd58f29f8d"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "Which among the following is the output of the code below?",
+  "answer1": "Child",
+  "answer2": "Young Adult",
+  "answer3": "Middle-aged Adult",
+  "answer4": "Old-aged Adult",
+  "correctanswer": "Middle-aged Adult",
+  "questionpic": "628747695cb595bd58f29f8d.png"
+},{
+  "_id": {
+    "$oid": "628747a75cb595bd58f29f8e"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "Which among the following is the output of the code below?",
+  "answer1": "12",
+  "answer2": "10",
+  "answer3": "8",
+  "answer4": "0",
+  "correctanswer": "10",
+  "questionpic": "628747a75cb595bd58f29f8e.png"
+},{
+  "_id": {
+    "$oid": "628747d95cb595bd58f29f8f"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "Which among the following is the output of the code below?",
+  "answer1": "123",
+  "answer2": "210",
+  "answer3": "012",
+  "answer4": "321",
+  "correctanswer": "210",
+  "questionpic": "628747d95cb595bd58f29f8f.png"
+},{
+  "_id": {
+    "$oid": "628748015cb595bd58f29f90"
+  },
+  "kind": "BackEnd Level 1 Multiple Choice",
+  "question": "Which among the following is the output of the code below?",
+  "answer1": "123",
+  "answer2": "210",
+  "answer3": "012",
+  "answer4": "321",
+  "correctanswer": "123",
+  "questionpic": "628748015cb595bd58f29f90.png"
+},{
+  "_id": {
+    "$oid": "628af48881cb5048f19c7d99"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "Which among the following statements about SQL is correct?",
+  "answer1": "SQL lets you access and manipulate databases",
+  "answer2": "SQL can execute queries against a databases",
+  "answer3": "SQL databases are relational",
+  "answer4": "All of the above",
+  "correctanswer": "All of the above"
+},{
+  "_id": {
+    "$oid": "628afb0081cb5048f19c7d9a"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "Which among the following data types is used to store date and time?",
+  "answer1": "DATE",
+  "answer2": "INT",
+  "answer3": "VARCHAR",
+  "answer4": "DATETIME",
+  "correctanswer": "DATETIME"
+},{
+  "_id": {
+    "$oid": "628afb4281cb5048f19c7d9b"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "Which among the following SQL statements is used to delete an existing table in a database?",
+  "answer1": "DELETE TABLE",
+  "answer2": "DROP TABLE",
+  "answer3": "DELETE DATABASE",
+  "answer4": " DROP DATABASE",
+  "correctanswer": "DROP TABLE"
+},{
+  "_id": {
+    "$oid": "628afb7d81cb5048f19c7d9c"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "Which among the following operators is the shorthand for multiple OR conditions?",
+  "answer1": "SELECT INTO",
+  "answer2": "WHEREIN",
+  "answer3": "IN",
+  "answer4": "ON",
+  "correctanswer": "IN"
+},{
+  "_id": {
+    "$oid": "628afc7c81cb5048f19c7d9d"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "Which among the following statements about SQL JOIN is correct?",
+  "answer1": " SQL JOIN statement combines multiple tables",
+  "answer2": " LEFT JOIN and LEFT OUTER JOIN are different",
+  "answer3": "RIGHT JOIN and LEFT JOIN's result are same",
+  "answer4": "All of the above",
+  "correctanswer": " SQL JOIN statement combines multiple tables"
+},{
+  "_id": {
+    "$oid": "628afd5a81cb5048f19c7d9e"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "Which among the following SQL statements returns the [Expected Result] below?",
+  "answer1": "SELECT DISTINCT Genre FROM Books;",
+  "answer2": "SELECT COUNT(Genre) FROM Books; ",
+  "answer3": "SELECT * FROM Books WHERE Genre = 'All';",
+  "answer4": "SELECT Genre FROM Books",
+  "correctanswer": "SELECT DISTINCT Genre FROM Books;",
+  "questionpic": "628afd5a81cb5048f19c7d9e.png"
+},{
+  "_id": {
+    "$oid": "628aff2a81cb5048f19c7d9f"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "Which among the following SQL statements returns the book with no stock?",
+  "answer1": "SELECT * FROM Books WHERE Stock = 0;",
+  "answer2": "SELECT * FROM Books WHERE Stock > 0;",
+  "answer3": "SELECT * FROM Books WHERE Stock < 0;",
+  "answer4": "SELECT * FROM Books WHERE Stock >= 0;",
+  "correctanswer": "SELECT * FROM Books WHERE Stock = 0;",
+  "questionpic": "628aff2a81cb5048f19c7d9f.png"
+},{
+  "_id": {
+    "$oid": "628b000d81cb5048f19c7da0"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "If executed the SQL statement below, what books will be included in the extracted data?",
+  "answer1": "The Diary of a Young Girl, The Lovely Bones",
+  "answer2": "Harry Potter 1, Harry Potter 2",
+  "answer3": "The Lovely Bones",
+  "answer4": "The Diary of a Young Girl",
+  "correctanswer": "The Lovely Bones",
+  "questionpic": "628b000d81cb5048f19c7da0.png"
+},{
+  "_id": {
+    "$oid": "628b008381cb5048f19c7da1"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "What should be written in a missing part of an SQL statement to extract the books with a word \"fiction\" in the genre?",
+  "answer1": "Genre = 'fiction'",
+  "answer2": "Genre LIKE '%fiction%'",
+  "answer3": "Genre = '%fiction%'",
+  "answer4": "Genre <> '%fiction%'",
+  "correctanswer": "Genre LIKE '%fiction%'",
+  "questionpic": "628b008381cb5048f19c7da1.png"
+},{
+  "_id": {
+    "$oid": "628b011881cb5048f19c7da2"
+  },
+  "kind": "SQL Level 1 Multiple Choice",
+  "question": "What should be written in a missing part of an SQL statement to show the [Expected Result] below?",
+  "answer1": "Stock",
+  "answer2": "Price",
+  "answer3": "Genre",
+  "answer4": "Author",
+  "correctanswer": "Author",
+  "questionpic": "628b011881cb5048f19c7da2.png"
+},{
+  "_id": {
+    "$oid": "628b044a81cb5048f19c7da3"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "Delphi is an IDE; Integrated Development Environment developed by Embarcadero Technologies. The name of the programming language is Object Pascal.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628b047f81cb5048f19c7da4"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "Object Pascal is a kind of procedural programming language, not an object oriented one.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b049581cb5048f19c7da5"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "Delphi programs are usually divided into source-code modules called scripts.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b04ac81cb5048f19c7da6"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "File extension of Delphi source file is “.pas”.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628b04c881cb5048f19c7da7"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": " In Object Pascal language we always need to use Pascal Case. We can not use Camel Case, e.g. userName. ",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b053e81cb5048f19c7da8"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "Object Pascal language has GC; Garbage Collector(*) so we do not mind of memory leak problems.\n*GC; Garbage Collector---a form of automatic memory management. ",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b056a81cb5048f19c7da9"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "You can define constant by using “const” keyword. You can change the value assigned after the definition.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b058381cb5048f19c7daa"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "“VCL” of VCL application stands for “Visual Component Library”",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628b05dc81cb5048f19c7dab"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "In Object Pascal language expression of “if statement” is like the following sample;",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N",
+  "questionpic": "628b05dc81cb5048f19c7dab.png"
+},{
+  "_id": {
+    "$oid": "628b067d81cb5048f19c7dac"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "Object Pascal code block will start with “start” and then finish with “finish.”(with period);",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N",
+  "questionpic": "628b067d81cb5048f19c7dac.png"
+},{
+  "_id": {
+    "$oid": "628b06b281cb5048f19c7dad"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "As the naming convention for fields inside classes letter “T” will be prefixed at the beginning of the name.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N",
+  "questionpic": "628b067d81cb5048f19c7dac.png"
+},{
+  "_id": {
+    "$oid": "628b06dd81cb5048f19c7dae"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "If the class method is not static, you always need to invoke the constructor to create the class instance.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Y"
+},{
+  "_id": {
+    "$oid": "628b071881cb5048f19c7daf"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "In Delphi you do not need to destroy created instance since there is GC; Garbage Collector. ",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b072f81cb5048f19c7db0"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "Object Pascal is a kind of dynamically typed language.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b074781cb5048f19c7db1"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "An Enumerated represents an indexed collection of elements of the same type(called the base type).",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b076981cb5048f19c7db2"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "Delphi can connect MySQL / Microsoft SQL Server databases by default without installing any other dependency.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b077e81cb5048f19c7db3"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "Delphi can not connect to any API’s / web services.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b079181cb5048f19c7db4"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "In creating function you always need to set parameter(s) in it.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b07a781cb5048f19c7db5"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": "In setting parameters to function sometimes you do not need to define the data type.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b07bd81cb5048f19c7db6"
+  },
+  "kind": "Delphi Level 1 Y/N",
+  "question": " In Object Pascal there’re two keywords to define methods, procedure and function. Both of them are functionally the same.",
+  "answer1": "Y",
+  "answer2": "N",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "N"
+},{
+  "_id": {
+    "$oid": "628b084f81cb5048f19c7db7"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Correct assignment statement in Object Pascal is;\nvar variable: string;",
+  "answer1": "variable = expression;",
+  "answer2": "variable == expression;",
+  "answer3": "variable := expression;",
+  "answer4": "null",
+  "correctanswer": "variable := expression;"
+},{
+  "_id": {
+    "$oid": "628b089f81cb5048f19c7db8"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Choose one of the following options which is NOT existing as the keywords to define access rights in Object Pascal class;",
+  "answer1": "private",
+  "answer2": "public",
+  "answer3": "protected",
+  "answer4": "published",
+  "correctanswer": "published"
+},{
+  "_id": {
+    "$oid": "628b08d981cb5048f19c7db9"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Choose one of the following options which will be used to refer other dependency units;",
+  "answer1": "interface",
+  "answer2": "implementation",
+  "answer3": "uses",
+  "answer4": "initialization",
+  "correctanswer": "uses"
+},{
+  "_id": {
+    "$oid": "628b091481cb5048f19c7dba"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "In Delphi when you want to jump to the corresponding procedure / function you will perform;",
+  "answer1": "Press Ctrl & click the name of procedure / function",
+  "answer2": "Press Alt & click the name of procedure / function",
+  "answer3": "Press Shift & click the name of procedure / function",
+  "answer4": "null",
+  "correctanswer": "Press Ctrl & click the name of procedure / function"
+},{
+  "_id": {
+    "$oid": "628b095681cb5048f19c7dbb"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "In Delphi when you want to create in implementation section the corresponding method(s) in a class defined in interface section you will perform;",
+  "answer1": "Press Windows + C",
+  "answer2": "Press Ctrl + Shift",
+  "answer3": "Press Ctrl + Shift + C",
+  "answer4": "null",
+  "correctanswer": "Press Ctrl + Shift + C"
+},{
+  "_id": {
+    "$oid": "628b098881cb5048f19c7dbc"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "In Delphi when you want to search a keyword in entire text-based scripts in the project you will perform; ",
+  "answer1": "Press Ctrl + F",
+  "answer2": "Press Ctrl + Alt + F",
+  "answer3": "Press Shift + Ctrl + F",
+  "answer4": "null",
+  "correctanswer": "Press Shift + Ctrl + F"
+},{
+  "_id": {
+    "$oid": "628b09d681cb5048f19c7dbd"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "When you want to create a new project of Windows Desktop Form Application in Delphi you will choose;",
+  "answer1": "VCL Forms Application - Delphi",
+  "answer2": "Multi-Device Application – Delphi",
+  "answer3": "Package - Delphi",
+  "answer4": "null",
+  "correctanswer": "VCL Forms Application - Delphi",
+  "questionpic": "628b09d681cb5048f19c7dbd.png"
+},{
+  "_id": {
+    "$oid": "628b0a3181cb5048f19c7dbe"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "In iCAD application development we need to use;",
+  "answer1": "RAD Studio 10.1 Berlin",
+  "answer2": "RAD Studio 10.2 Tokyo",
+  "answer3": "RAD Studio 10.3 Rio",
+  "answer4": "RAD Studio 10.4 Sydney",
+  "correctanswer": "RAD Studio 10.1 Berlin"
+},{
+  "_id": {
+    "$oid": "628b0a6581cb5048f19c7dbf"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "In Object Pascal language which of the following options is one of the reserved words?;",
+  "answer1": "value",
+  "answer2": "option",
+  "answer3": "program",
+  "answer4": "name",
+  "correctanswer": "program"
+},{
+  "_id": {
+    "$oid": "628b0a9c81cb5048f19c7dc0"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Correct syntax to define static method(Test(): string function) in a class is;",
+  "answer1": "static function Test(): string;",
+  "answer2": "function Test(): string; static;",
+  "answer3": "class function Test(): string; static;",
+  "answer4": "null",
+  "correctanswer": "class function Test(): string; static;"
+},{
+  "_id": {
+    "$oid": "628b0ad781cb5048f19c7dc1"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is incorrect as the syntax of class property?;",
+  "answer1": "property Price: TPrice read GetPrice write SetPrice;",
+  "answer2": "property Name: TName read GetName;",
+  "answer3": "property Address: TAddress;",
+  "answer4": "null",
+  "correctanswer": "property Address: TAddress;"
+},{
+  "_id": {
+    "$oid": "628b0c6e81cb5048f19c7dc2"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?;",
+  "answer1": "The first letter: “F” of “FName” stands for “Field”.",
+  "answer2": "The first letter: “T” of “TClient” stands for “Type”.",
+  "answer3": "If you do not follow the naming convention, you will encounter compilation errors.",
+  "answer4": "null",
+  "correctanswer": "property Address: TAddress;",
+  "questionpic": "628b0c6e81cb5048f19c7dc2.png"
+},{
+  "_id": {
+    "$oid": "628b0cdf81cb5048f19c7dc3"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Regarding .dcu files which of the following options is NOT correct?;",
+  "answer1": "DCU stands for Delphi Compiled Unit.",
+  "answer2": "DCU files will be created after compilation is performed.",
+  "answer3": "DCU file should not be tracked by Git since the data size is usually quite big.",
+  "answer4": "DCU is text-based file so you can view the inside with text editor.",
+  "correctanswer": "DCU is text-based file so you can view the inside with text editor."
+},{
+  "_id": {
+    "$oid": "628b0d4d81cb5048f19c7dc4"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?; ",
+  "answer1": ".dfm stands for Delphi Form Files.",
+  "answer2": "If you delete .dfm file(s) in Delphi VCL application, the application will not run any more.",
+  "answer3": ".pas is a dedicated file extension for Delphi only. It can not be used in other platform which is like Free Pascal.",
+  "answer4": "null",
+  "correctanswer": ".pas is a dedicated file extension for Delphi only. It can not be used in other platform which is like Free Pascal."
+},{
+  "_id": {
+    "$oid": "628b0db481cb5048f19c7dc5"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?;",
+  "answer1": "Object Pascal is an case-insensitive language.",
+  "answer2": "In Object Pascal we do not need to mind of usage of ;(semi-colon) so much.",
+  "answer3": "In using Object Pascal we should follow as much as possible of the naming convention set in our organization.",
+  "answer4": "null",
+  "correctanswer": "In Object Pascal we do not need to mind of usage of ;(semi-colon) so much."
+},{
+  "_id": {
+    "$oid": "628b0e1781cb5048f19c7dc6"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?;",
+  "answer1": "If you want to separate the logic from dfm file, you can create a unit file(.pas) and then include it in “users” section inside the dfm file to link with.",
+  "answer2": "In Object Pascal language indentation is must. If you will not use, you will encounter compilation errors.",
+  "answer3": "In using Object Pascal we should follow as much as possible of the naming convention set in our organization.",
+  "answer4": "In Object Pascal language usually we do not need to define data type of the return value since there will be no return from procedure method.",
+  "correctanswer": "In Object Pascal language indentation is must. If you will not use, you will encounter compilation errors."
+},{
+  "_id": {
+    "$oid": "628b0e8181cb5048f19c7dc7"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?;",
+  "answer1": "There’re two kinds of Array data in Delphi, static and dynamic.",
+  "answer2": "When defining a static array you need to SetLength([array], [number of elements]) method.",
+  "answer3": "Memory management of dynamic array data will be done by Delphi automatically.",
+  "answer4": "null",
+  "correctanswer": "When defining a static array you need to SetLength([array], [number of elements]) method."
+},{
+  "_id": {
+    "$oid": "628b0ee781cb5048f19c7dc8"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?;",
+  "answer1": "Generics will make the TList type data flexible just like dynamic array.",
+  "answer2": "ou can use Generics in Delphi by default without adding any dependency in uses section.",
+  "answer3": "Before using Generics TList typed data you need to create the instance by\ndoing like;\n data := TList<integer>.Create;",
+  "answer4": "null",
+  "correctanswer": "ou can use Generics in Delphi by default without adding any dependency in uses section."
+},{
+  "_id": {
+    "$oid": "628b0f6c81cb5048f19c7dc9"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is correct?; ",
+  "answer1": "628b0f6c81cb5048f19c7dc9-A.png",
+  "answer2": "628b0f6c81cb5048f19c7dc9-B.png",
+  "answer3": "628b0f6c81cb5048f19c7dc9-C.png",
+  "answer4": "null",
+  "correctanswer": "628b0f6c81cb5048f19c7dc9-B.png"
+},{
+  "_id": {
+    "$oid": "628b113f81cb5048f19c7dca"
+  },
+  "kind": "Delphi Level 1 Multiple Choice",
+  "question": "Which of the following options is NOT correct?;",
+  "answer1": "628b113f81cb5048f19c7dca-A.png",
+  "answer2": "628b113f81cb5048f19c7dca-B.png",
+  "answer3": "628b113f81cb5048f19c7dca-C.png",
+  "answer4": "null",
+  "correctanswer": "628b113f81cb5048f19c7dca-B.png"
+},{
+  "_id": {
+    "$oid": "628b12bc81cb5048f19c7dcb"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List two members included in a class;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "field, property, methods"
+},{
+  "_id": {
+    "$oid": "628b41250f40d29707bcf9cc"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List three data types of Object Pascal;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "Double, Integer, String, Boolean"
+},{
+  "_id": {
+    "$oid": "628b41660f40d29707bcf9cd"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List three file extensions used in Delphi;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": ".pas, .dfm, .dproj"
+},{
+  "_id": {
+    "$oid": "628b419d0f40d29707bcf9ce"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List two sections which are mandatory for a Delphi unit;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "interface, implementation"
+},{
+  "_id": {
+    "$oid": "628b41d80f40d29707bcf9cf"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List three kinds of statements which will be used for loops in Object Pascal;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "for, repeat until / do, while"
+},{
+  "_id": {
+    "$oid": "628b42580f40d29707bcf9d0"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List three Delphi standard libraries which will be included in uses clause;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "System.Classes, System.SysUtils, Winapi.Windows, Winapi.Messages, System.Variants, VCL.Graphics, VCL.Dialogs, VCL.Dialogs, VCL.Forms"
+},{
+  "_id": {
+    "$oid": "628b42b50f40d29707bcf9d1"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List three reserved words in Delphi;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "var, and, case, end, finally, implementation, interface, else, set, if "
+},{
+  "_id": {
+    "$oid": "628b42ed0f40d29707bcf9d2"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List three relational operators(e.g. equality, less-than or greater-than etc.) used in Delphi;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "<, >, <>, =, <=, >="
+},{
+  "_id": {
+    "$oid": "628b431e0f40d29707bcf9d3"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List three arithmetic operators(e.g. addition, deduction or division etc.) used in Delphi;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "+, -, /, *"
+},{
+  "_id": {
+    "$oid": "628b438b0f40d29707bcf9d4"
+  },
+  "kind": "Delphi Level 1 Enumeration",
+  "question": "List three clauses used in if statement of Delphi;",
+  "answer1": "null",
+  "answer2": "null",
+  "answer3": "null",
+  "answer4": "null",
+  "correctanswer": "if condition then statement;, else statement; else if condition then statement"
+}]
